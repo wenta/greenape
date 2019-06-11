@@ -6,4 +6,4 @@ From wikipedia:
 
 see https://en.wikipedia.org/wiki/Infinite_monkey_theorem
 
-Goal of this project is to show that if we give monkey a keyboard it could write every possible function in infinite time.
+Goal of this project is to show that if we give monkey a keyboard it could write every possible function in finite time.
