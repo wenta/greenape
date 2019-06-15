@@ -32,7 +32,7 @@ def example_sum():
                           , chunks=chunks
                           , minimum_body_size=5
                           , maximum_body_size=6)
-    print("Generated example of sum function:")
+    print("Generated examples of sum function:")
     MainApe().run(rules, ape_test_sum, '../../src/')
 
 
@@ -43,7 +43,7 @@ def example_substract():
                           , chunks=chunks
                           , minimum_body_size=5
                           , maximum_body_size=6)
-    print("Generated example of substract function:")
+    print("Generated examples of substract function:")
     MainApe().run(rules, ape_test_substract, '../../src/')
 
 
@@ -54,7 +54,7 @@ def example_multiply():
                           , chunks=chunks
                           , minimum_body_size=5
                           , maximum_body_size=6)
-    print("Generated example of multiply function:")
+    print("Generated examples of multiply function:")
     MainApe().run(rules, ape_test_multiply, '../../src/')
 
 

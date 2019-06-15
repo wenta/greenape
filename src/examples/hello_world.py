@@ -18,14 +18,9 @@ def example_hello_world():
                           , chunks=chunks
                           , minimum_body_size=6
                           , maximum_body_size=7)
-    print("Generated example of hello function:")
+    print("Generated examples of hello function:")
     MainApe().run(rules, ape_test_hello_world, '../../src/')
 
 
-def hello():
-    return 'hello world'
-
-
 if __name__ == '__main__':
-    print('hello world' == hello())
     example_hello_world()
