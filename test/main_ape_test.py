@@ -22,12 +22,3 @@ class MainApeTest(TestCase):
         res = MainApe().run(rules, self.ape_test_sum)
         assert len(res) != 0
 
-    def test_diff(self):
-        chunks = ["   ", "-", "c", "d", "return", " "]
-        rules = FunctionRules(name="sum"
-                              , args="a: int, b: int"
-                              , chunks=chunks
-                              , minimum_body_size=5
-                              , maximum_body_size=6)
-        res = MainApe().run(rules, self.ape_test_sum)
-        assert len(res) != 0
