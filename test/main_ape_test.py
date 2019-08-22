@@ -23,7 +23,7 @@ class MainApeTest(TestCase):
         assert len(res) != 0
 
     def test_diff(self):
-        chunks = ["   ", "-", "a", "b", "return", " "]
+        chunks = ["   ", "-", "c", "d", "return", " "]
         rules = FunctionRules(name="sum"
                               , args="a: int, b: int"
                               , chunks=chunks
